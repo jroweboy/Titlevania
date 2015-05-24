@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 5/23/2015 6:08:52 PM-->
+<Tiled2Unity version="0.9.10.0">
+  <Prefab name="first_test" numTilesWide="100" numTilesHigh="50" tileWidth="16" tileHeight="16" exportScale="0.05" mapWidthInPixels="1600" mapHeightInPixels="800">
+    <GameObject name="Background_00" />
+    <GameObject name="Ground_01" />
+    <GameObject name="Door_02" />
+  </Prefab>
+  <ImportMesh filename="first_test.obj">IyBXYXZlZnJvbnQgT0JKIGZpbGUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQgYnkgVGlsZWQyVW5pdHkNCg0KIyBWZXJ0aWNlcyAoQ291bnQgPSAwKQ0KDQojIFRleHR1cmUgQ29vcmluZGF0ZXMgKENvdW50ID0gMCkNCg0KIyBOb3JtYWwNCnZuIDAgMCAtMQ0KDQojIEdyb3VwcyAoQ291bnQgPSAwKQ0K</ImportMesh>
+</Tiled2Unity>
