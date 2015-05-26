@@ -15,6 +15,8 @@ except NameError:  # We are the main py2exe script, not a module
     path = os.path.dirname(os.path.abspath(sys.argv[0]))
 
 def run_tiled2unity(event):
+    st = datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
+    print("[{}] Detected an update for the file {}".format(st, os.path.basename(event.src_path)))
     CREATE_NO_WINDOW = 0x08000000
     info = subprocess.STARTUPINFO()
     info.dwFlags = 1
@@ -22,12 +24,17 @@ def run_tiled2unity(event):
     p = subprocess.Popen([os.path.join(path,"Tiled2Unity/Tiled2Unity.exe"), 
             "-a", "-s=0.05", "-v", event.src_path, "../../"], 
             creationflags=CREATE_NO_WINDOW, startupinfo=info)
-    p.wait()
     st = datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
-    print ("[{}] Updating {} complete".format(st, os.path.basename(event.src_path)))
+    print("[{}] Processing .".format(st), end="",flush=True)
+    while p.poll() is None:
+        print(".", end="",flush=True)
+        time.sleep(.5)
+    print()
+    st = datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
+    print("[{}] Updating {} complete".format(st, os.path.basename(event.src_path)))
 
 if __name__ == "__main__":
-    print ("Watching for changes in tmx files")
+    print("Watching for changes in tmx files")
     event_handler = RegexMatchingEventHandler(regexes=[r'.*\.tmx$'])
     event_handler.on_modified = run_tiled2unity
     observer = Observer()

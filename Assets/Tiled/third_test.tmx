@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="50" tilewidth="8" tileheight="8" nextobjectid="1">
+ <tileset firstgid="1" source="mega_tiles/megacommando.tsx"/>
+ <layer name="SetGround" width="100" height="50" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztmEEOhCAQBP3Gvsv//8XDHNzgelFmuoetSvoKpIsguH+2bSeEkAYBAACA/vC994K7mBfck71wecewBwKXt2XG+B39urz58RHgwwsXHxl0Wec3q7roxNgfHuZBjzpWPutdyegcH/dU942P36h7x0eg7hsfgbpnfATqfvERqHvFx4m6U3wE6i7xcaLu8UnfK/rI3o8Ve34VH4qzIGOuf/RRNffb8TpT2X82Xdc9gg/IAB9e4MMLfHiBDy9m+6i+/8OVGf8ScPWOWQ5w85xsB9XpgLojt+ChV/BBCCGEkLscmQEMpg==
+  </data>
+ </layer>
+ <layer name="Ground" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztm0lywjAQRXUMIBuGI4ErwIYpcGEgATYMCZwjTWFVHJWFZEngtviv6hesPOi5ZaolhADcSNoIh0jWbYRDAAAAABAPST0/+5oQh1rZV/d6rOv5GVHGcMMOuOGL6uaaGbn58PTTpeP0NPPmnLKoh7n+mJHz2rklxKXld6wlHWelmTfPlIuDD53j2P2+N4ToN/zus9umsdP0deaUhUM/QefY1W+V2DT87nNJ473S9HXOlIuDD51jV79VY9ah90in7Kv4Q+fY1e+zKNoXVrOnHCjf5OKHkY8qsKXfQbva7b0m8e0Tj8jBGB7+ja1tBpRh+l4D7uSNfXZsbQPsufe854098MM0v9x73kE4pAfT/AIei+oBlAM88AAeeDAhB1N4YMORXJwYr88kjHs1oZA10ad6mFCmBepC1wcKSbavdO1pbCm79BzJW9hzcUDWxMbgIa/vpusDyTFz9aOeI9tXGtDnMP2+Jh+fEThxqYkifTc5ZqofEzoHsaOriX76rIWee6QftW7UeivqoNsUotcMc41lkncfX+Rik/p41F5ltW7Q574xoXufduJY+4uhRo7k4qQ8p9zX/nTE4CMm4IMX8MEL+OCF3JsEeCD3JoXAtO6J/dePJ+vAtO6p7r+GqzDoHNiC/5j44+vAFlMdhUoVnNvuM3oWRfaTFY2N87KdveI+Ix9nZft6VXxqzCXAj9BzKQAAVIlflp0ZEg==
+  </data>
+ </layer>
+</map>

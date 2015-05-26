@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 5/23/2015 9:52:33 PM-->
+<Tiled2Unity version="0.9.10.0">
+  <AssignMaterial mesh="mesh_[00]_[00]" material="megacommando" sortingLayerName="" sortingOrder="0" alphaColorKey="#000000" />
+  <Prefab name="ground" numTilesWide="50" numTilesHigh="50" tileWidth="8" tileHeight="8" exportScale="0.05" mapWidthInPixels="400" mapHeightInPixels="400">
+    <GameObject name="regions_00">
+      <GameObject copy="mesh_[00]_[00]" />
+    </GameObject>
+    <GameObject name="input_Ground_01" />
+  </Prefab>
+  <ImportMesh filename="ground.obj">IyBXYXZlZnJvbnQgT0JKIGZpbGUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQgYnkgVGlsZWQyVW5pdHkNCg0KIyBWZXJ0aWNlcyAoQ291bnQgPSA3KQ0KdiAtMiAtMS42MDAwMDAwMjM4NDE4NiAwDQp2IC0yLjQwMDAwMDA5NTM2NzQzIC0xLjYwMDAwMDAyMzg0MTg2IDANCnYgLTIuNDAwMDAwMDk1MzY3NDMgLTEuMjAwMDAwMDQ3NjgzNzIgMA0KdiAtMiAtMS4yMDAwMDAwNDc2ODM3MiAwDQp2IC0xLjYwMDAwMDAyMzg0MTg2IC0yIDANCnYgLTIgLTIgMA0KdiAtMS42MDAwMDAwMjM4NDE4NiAtMS42MDAwMDAwMjM4NDE4NiAwDQoNCiMgVGV4dHVyZSBDb29yaW5kYXRlcyAoQ291bnQgPSA0KQ0KdnQgMC42Nzk4MDk2IDAuNjY4ODcyMQ0KdnQgMC42ODczNzc5IDAuNjY4ODcyMQ0KdnQgMC42ODczNzc5IDAuNjc0ODc3OQ0KdnQgMC42Nzk4MDk2IDAuNjc0ODc3OQ0KDQojIE5vcm1hbA0Kdm4gMCAwIC0xDQoNCiMgR3JvdXBzIChDb3VudCA9IDEpDQpnIG1lc2hfWzAwXV9bMDBdDQpmICAxLzEvMSAgMi8yLzEgIDMvMy8xICA0LzQvMSANCmYgIDUvMS8xICA2LzIvMSAgMS8zLzEgIDcvNC8xIA0K</ImportMesh>
+  <InternalTexture assetPath="Assets\Tiled\mega_tiles\megacommando.png" />
+</Tiled2Unity>
